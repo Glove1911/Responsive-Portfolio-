@@ -1,43 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/75f7af119c.js" crossorigin="anonymous"></script>
+  <title>Contact</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-color">
-        <a class="navbar-brand" href="#">Harrison L. Glover</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">About</a>
-            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-          </div>
-        </div>
-      </nav>  
-      <div class="card mb-3 ml-4 mt-4" style="max-width: 540px; height: 540px;">
-        <div class="h2 px-3 text-info mt-4">Contact
-            <hr style="width:100%x;"> 
-        </div>
-        <form>
-            <div class="form-group ml-4 mr-4">
-              <label for="formGroupExampleInput">Example label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-            </div>
-            <div class="form-group ml-4 mr-4">
-              <label for="formGroupExampleInput2">Another label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-            </div>
-            <div class="form-group ml-4 mr-4">
-                <label for="exampleFormControlTextarea1">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-          </form>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-color">
+    <a class="navbar-brand text-primary" href="#">Harrison L. Glover</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active text-primary" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-primary" href="portfolio.html">Portfolio</a>
+        <a class="nav-link text-primary" href="index.html">About</a>
+        <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+      </div>
+    </div>
+  </nav>
+  <div class="card mb-3 ml-4 mt-4 bg-light" style="max-width: 540px; height: 540px;">
+    <div class="h2 px-3 text-primary mt-4">Contact
+      <hr style="width:100%x;" class="bg-primary">
+    </div>
+    <form>
+      <div class="form-group ml-4 mr-4">
+        <label for="First and Last Name">Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First and Last Name">
+      </div>
+      <div class="form-group ml-4 mr-4">
+        <label for="Email Address">Email</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email Address">
+      </div>
+      <div class="form-group ml-4 mr-4">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+  </div>
+  <footer id="footer">
+    <div id="footer-content">
+      <nav class="nav justify">
+        <a class="far fa-envelope" id="mail" href="mailto: harrison_glover@yahoo.com">Email</a>
+        <a class="fab fa-github" href="https://github.com/Glove1911" id="github">Github</a>
+        <a class="fab fa-linkedin" href="https://www.linkedin.com/in/harrison-glover-80252998/" id="linkedin">LinkedIn</a>
+        
+      </nav>
+
+    </div>
+  </footer>
+</body>
+
+</html>
