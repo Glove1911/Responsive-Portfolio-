@@ -1,9 +1,8 @@
 # Responsive-Portfolio-
 # Description 
 
-For this assignment we were tasked with creating a responsive portfolio site utilizing Bootstrap components and the grid system.  Each page must have valid and correct html.  More info on submission requirement can be find <a href="./responsive-portfolio/readme copy.md">here
-
+For this assignment we were tasked with creating a responsive portfolio site utilizing Bootstrap components and the grid system.  Each page must have valid and correct html.  More info on submission requirement can be find [here](https://github.com/Glove1911/Responsive-Portfolio-/blob/main/README%20copy.md)
 # Usage
 
-This site is to display a responsive portfolio.
-<img src="
+This site is designed to display a responsive portfolio.
+<img src="https://github.com/Glove1911/Responsive-Portfolio-/blob/main/images/BD6A17F6-F887-4E60-9323-88ED34502300.jpeg">
