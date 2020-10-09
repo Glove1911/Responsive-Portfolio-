@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/75f7af119c.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/75f7af119c.js" crossorigin="anonymous"></script>
+  <title>Responsive Portfolio</title>
 </head>
+
 <body>
-   <div id="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2" id="navbar-color">
-        <a class="navbar-brand text-primary" href="#" id="name">Harrison L. Glover</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-link active text-primary" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-            <a class="nav-link text-primary" href="portfolio.html">Portfolio</a>
-            <a class="nav-link text-primary" href="index.html">About</a>
-            <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-          </div>
+        <!-- Navigation bar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary py-2 border border-primary" id="navbar-color">
+    <a class="navbar-brand text-white" href="#" id="name">Harrison L. Glover</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active text-white" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+        <a class="nav-link text-white" href="index.html">About</a>
+      </div>
+    </div>
+  </nav>
+      <!-- Bio Card -->
+  <main class="card mb-5 ml-4 mt-4 bg-light border border-primary " style="max-width: 540px; height: auto;">
+    <div class="h2 px-3 text-primary mt-4" id="about">About Me
+      <hr style="width:100%x;" class="bg-primary">
+    </div>
+    <div class="row no-gutters">
+      <div class="col-md-4 px-3 mt-4">
+        <img src="./Images/16D1CC79-6031-45C0-B438-8CAE215F4428_1_105_c.jpeg" class="img-thumbnail" alt="Profile Pic">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body mt-1">
+          <p class="card-text">I am a current student in SMU's full-stack developer bootcamp.  Programming is something that I have alway been passionate about.  My 9 year old son served as my motivation for entering the program after having a conversation with him about not being afraid to accept the challenge of learning to code.  After completion of the program it is my goal to work as a full-stack developer here in the Dallas Metroplex.</p>
         </div>
-      </nav>  
-      <main class="card mb-3 ml-4 mt-4 bg-light" style="max-width: 540px; height: 540px;">
-        <div class="h2 px-3 text-primary mt-4" id="about">About Me
-            <hr style="width:100%x;" class="bg-primary"> 
-        </div>
-        <div class="row no-gutters">
-            <div class="col-md-4 px-3 mt-4">
-            <img src="/Images/16D1CC79-6031-45C0-B438-8CAE215F4428_1_105_c.jpeg" class="img-thumbnail" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body mt-1">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione omnis, iusto animi ex repellendus architecto, aliquid aspernatur aliquam voluptatibus voluptatem voluptas fugit veniam deleniti similique saepe itaque, ducimus tempora! Exercitationem.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>  
-      </main> 
+      </div>
+    </div>
+  </main>
   <footer id="footer">
     <div id="footer-content">
       <nav class="nav justify">
-        <a class="far fa-envelope" id="mail" href="mailto: harrison_glover@yahoo.com">Email</a>
-        <a class="fab fa-github" href="https://github.com/Glove1911" id="github">Github</a>
-        <a class="fab fa-linkedin" href="https://www.linkedin.com/in/harrison-glover-80252998/" id="linkedin">LinkedIn</a>
-        
+        <a class="far fa-envelope text-white" id="mail" href="mailto: harrison_glover@yahoo.com">Email</a>
+        <a class="fab fa-github text-white" href="https://github.com/Glove1911" id="github">Github</a>
+        <a class="fab fa-linkedin text-white" href="https://www.linkedin.com/in/harrison-glover-80252998/"
+          id="linkedin">LinkedIn</a>
+
       </nav>
 
     </div>
   </footer>
 </body>
+
 </html>
