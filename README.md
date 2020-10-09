@@ -5,4 +5,4 @@ For this assignment we were tasked with creating a responsive portfolio site uti
 # Usage
 
 This site is designed to display a responsive portfolio.
-<img src="https://github.com/Glove1911/Responsive-Portfolio-">
+<img src="https://github.com/Glove1911/Responsive-Portfolio-/blob/main/images/BD6A17F6-F887-4E60-9323-88ED34502300.jpeg">
