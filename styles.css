@@ -79,6 +79,14 @@
       .separator {
         color: chocolate;
       }
+
+      .d-block {
+        width: 50%;
+        margin: auto;
+      }
+      .carousel-control-prev, .carousel-control-next {
+        filter: invert(1);
+      }
       
       /* .img-thumbnail {
         height: 150px;
