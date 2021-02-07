@@ -13,7 +13,7 @@
   <title>Contact</title>
 </head>
 
-<body>
+<body class="full-page-background-img">
 
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-0" id="mainNav">
     <div class="container">
@@ -31,31 +31,32 @@
       </div>
     </div>
   </nav>
-  <header class="masthead">
+  <!-- <header class="masthead"> -->
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
-        <main class="card col-lg-10 align-self-center mt-5" style="max-width: 540px; height: 540px;">
+        <!-- <main class="card col-lg-10 align-self-center mt-5" style="max-width: 540px; height: 540px;"> -->
           <div class="h2 px-3 about mt-4" id="contact">Contact
             <hr style="width:100%;">
+            <form>
+              <div class="form-group ml-4 mr-4">
+                <label for="Name" class="contact-text">Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name">
+              </div>
+              <div class="form-group ml-4 mr-4">
+                <label for="Email" class="contact-text">Email</label>
+                <input type="text" class="form-control" id="Email" placeholder="Email">
+              </div>
+              <div class="form-group ml-4 mr-4">
+                <label for="Message" class="contact-text">Message</label>
+                <textarea class="form-control" id="Message" rows="3"></textarea>
+              </div>
+            </form>
           </div>
-          <form>
-            <div class="form-group ml-4 mr-4">
-              <label for="Name">Name</label>
-              <input type="text" class="form-control" id="Name" placeholder="Name">
-            </div>
-            <div class="form-group ml-4 mr-4">
-              <label for="Email">Email</label>
-              <input type="text" class="form-control" id="Email" placeholder="Email">
-            </div>
-            <div class="form-group ml-4 mr-4">
-              <label for="Message">Message</label>
-              <textarea class="form-control" id="Message" rows="3"></textarea>
-            </div>
-          </form>
-        </main>
+          
+        <!-- </main> -->
       </div>
     </div>
-  </header>
+  <!-- </header> -->
   <footer id="footer">
     <div id="footer-content">
       <nav class="nav justify">
